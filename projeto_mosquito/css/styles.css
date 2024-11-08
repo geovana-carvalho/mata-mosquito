@@ -1,0 +1,86 @@
+*{
+   margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #3c1642;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    background-image: url("../imgs/mata.webp");
+    background-size: cover;
+}
+
+header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+}
+
+.logo{
+      color:  orange;
+      font-size: 28px;
+      font-weight: bold;
+      display: flex;
+}
+
+.nav-link {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.img-logo {
+    width: 30px;
+    height: 30px;
+}
+
+main{
+    
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#botao {
+    text-decoration: none;
+    color: #fff;
+    background-color: #64ab6c;
+    backdrop-filter: blur(10pc);
+    width: 200px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 5px 5px black;
+    font-weight: 500px;
+    font-size: 25px;
+    text-align: center;
+}
+ 
+#botao:hover {
+    background-color: black;
+    color: #fcfcfc;
+    transform: scale(1.10) ease;
+    transition: 0.5s ease;
+}
+ #btn-style{
+  color: orange;
+ }
